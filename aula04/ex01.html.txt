@@ -25,13 +25,13 @@
 
     <script>   
         //var a window.document.getElementById('area') 
-        //a.addEventListener('click', clicar)          OU POSSO USAR DIGITAR ISSO AQUI NO JAVA SCRIPT,
-        //a.addEventListener('mouseenter', entrar)     DEIXANDO O HTML LIMPINHO
+        //a.addEventListener('click', clicar)          
+        //a.addEventListener('mouseenter', entrar)   
         //a.addEventListener('mouseout', sair)
         
                                                        
-        var a = window.document.getElementById('area') //isso tudo faz a ligacao da var do js
-                                                       //pra dentro do id no html. MUDANDO SEU CONTEUDO
+        var a = window.document.getElementById('area') 
+                                                       
         function clicar() {                           
 
             a.innerText = 'Clicou!'
