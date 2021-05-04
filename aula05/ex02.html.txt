@@ -20,7 +20,7 @@
                 var pais = 'Brasil'
                 res.innerHTML = `Sua Nacionalidade é <strong> ${res}</strong>`
                 if (nac != "Brasil") {
-                    res.innerHTML != `<p> Você é estrangeiro </p>` //ta dando ERRO! SOU BURRO
+                    res.innerHTML != `<p> Você é estrangeiro </p>` 
                 }else {
                     res.innerHTML `<p> Voce é Brasileiro </p>` 
                 }
