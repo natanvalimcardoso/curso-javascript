@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    Em que país voce vive? <input type="txtnac" name="txtnac" id="txtnac">
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+    <script>
+            function calcular() {
+                var txtv = window.document.querySelector('input#txtnac')
+                var res = window.querySelector('div#res')
+                var pais = 'Brasil'
+                res.innerHTML = `Sua Nacionalidade é <strong> ${res}</strong>`
+                if (nac != "Brasil") {
+                    res.innerHTML != `<p> Você é estrangeiro </p>` //ta dando ERRO! SOU BURRO
+                }else {
+                    res.innerHTML `<p> Voce é Brasileiro </p>` 
+                }
+            }
+    </script>
+</body>
+</html>
