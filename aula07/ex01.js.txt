@@ -1,8 +1,8 @@
 function verificar() {
     var data = new Date()
     var ano = data.getFullYear()
-    var formularioano = window.document.getElementById('txtano') //tanto faz usar essa
-    var res = document.querySelector('div#res')                  // ou essa
+    var formularioano = window.document.getElementById('txtano') 
+    var res = document.querySelector('div#res')                  
    if (formularioano.value.length == 0 || Number(formularioano.value) > ano ) {
     window.alert('[ERRO] Verifique os dados e tente novamente')
     } else {
