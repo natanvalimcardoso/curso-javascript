@@ -12,7 +12,7 @@ function verificar() {
         var img = document.createElement('img')
         img.setAttribute('id', 'foto')
         if (fsex[0].checked) {
-            genero = 'Homem'
+            genero = 'Homem'                                                                                        (aula07 guanabara)
             if (idade >=0 && idade  <10) {
                 //Criança
                 img.setAttribute('src', 'bebemenino.png')
