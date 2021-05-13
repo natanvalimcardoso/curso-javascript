@@ -1,11 +1,11 @@
 var valores = [8, 1, 7, 4, 2, 9]
 
 console.log(valores[0])
-//console.log(valores) PRIMEIRA MANEIRA
+//console.log(valores) 
 
 /*
 for (let pos = 0; pos < valores.length; pos < pos++) {
-    console.log(`A posição ${pos} tem o valor ${valores[pos]}`) //[pos] mostrando a posicao
+    console.log(`A posição ${pos} tem o valor ${valores[pos]}`) //
 } SEGUNDA MANEIRA
 */ 
 
