@@ -7,7 +7,7 @@ function parimpar (n) {
 }
 
 let res = parimpar(4) //jogar dentro de uma VARIAVEL (let,var)
-console.log(res)      //chamar essa funcao para cima
+console.log(res)      //chamar essa funcao para cima                           ((Aula Atividade, 11))
 
 //ou 
 
