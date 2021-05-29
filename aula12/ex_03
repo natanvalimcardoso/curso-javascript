@@ -1,0 +1,23 @@
+<html>
+<head><title> Exercício 13: apresenta campos para preenchimento, sendo que alguns são obrigatórios.</title>
+<head>
+<script>
+function campo_obrigatorio(x)
+{
+if(x.value=="")
+{
+alert("O campo " + x.name + " não pode ficar em branco.")
+}
+}
+</script>
+</head>
+<body>
+Nota: os campos marcados com asterisco são obrigatórios. <br><br>
+<form>
+*Nome Completo: <input type="text" name="nome" value="" size=30 maxlength=30 onblur="campo_obrigatorio(this)"><br>
+Idade: <input type="text" name="idade" value="" size=5 maxlength=5><br>
+*Cidade: <input type="text" name="cidade" value="" size=20 maxlength=20 onblur="campo_obrigatorio(this)"><br>
+Telefone: <input type="text" name="telefone" value="" size=15 maxlength=15<br>
+</form>
+</body>
+</html>
