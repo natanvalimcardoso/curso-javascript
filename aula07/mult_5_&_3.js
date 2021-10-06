@@ -9,7 +9,7 @@
         multiplos3 += (i % 3 == 0) ? i : 0;
         multiplos5 += (i % 5 == 0) ? i : 0;
       }
-      document.write("Somatórios dos Múltiplos de 3: " + multiplos3 + "<br>");
+      document.write("Somatórios dos Múltiplos de 3: " + multiplos3 + "<br>"); //guanabara
       document.write("Somatórios dos Múltiplos de 5: " + multiplos5 + "<br>");
       document.write("Somatórios dos Múltiplos de 5 e 3: " + parseInt(multiplos3+multiplos5));
     </script>
